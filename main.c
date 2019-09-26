@@ -7,13 +7,17 @@
 int main(int argc, char *argv[]) 
 {
 
-int x=3;
-int cond1, cond2;
-
-cond1 = 2<x&&x<5;
-cond2 = x>1|| x<4 && x>3;
-
-printf("cond1 = %d, cond2 =%d", cond1, cond2);
+	int x, y;
+	int cond1, cond2, cond3, cond4, cond5;
+	
+	printf("input two integrars ");
+	scanf("%d %d", &x, &y);
+	
+	printf("+ result is %d\n", x+y);
+	printf("- result is %d\n", x-y);
+	printf("* result is %d\n", x*y);
+	printf("/ result is %d\n", x/y);
+	printf("%% result is %d\n", x%y);
 
 }
 
