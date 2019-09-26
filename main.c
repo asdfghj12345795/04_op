@@ -8,7 +8,6 @@ int main(int argc, char *argv[])
 {
 
 	int x, y;
-	int cond1, cond2, cond3, cond4, cond5;
 	
 	printf("input two integrars ");
 	scanf("%d %d", &x, &y);
@@ -20,5 +19,3 @@ int main(int argc, char *argv[])
 	printf("%% result is %d\n", x%y);
 
 }
-
-
